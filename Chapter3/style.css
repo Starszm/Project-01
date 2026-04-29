@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #3adfe8;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img {
+    border-radius: 10px;
+    filter: grayscale(20%) brightness(90%) contrast(110%);
+    transition: 0.3s;
+}
+
+img:hover {
+    filter: none;
+}
